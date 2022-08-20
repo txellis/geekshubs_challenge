@@ -1,11 +1,9 @@
 .base-layout {
-    display: flex;
-  }
-    .base-left {
-    flex: 20%;
-  }
-  .base-right {
-    flex: 80%;
-  }
-
-  
+  display: flex;
+}
+.base-left {
+  flex: 20%;
+}
+.base-right {
+  flex: 80%;
+}
