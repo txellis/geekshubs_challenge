@@ -11,11 +11,11 @@ body {
     display: flex;
 }
 
-.base-layout-left {
+.base-layout-container-navigator {
     flex: 20%;
 }
 
-.base-layout-right {
+.base-layout-container-chat {
     flex: 80%;
 }
 
