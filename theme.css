@@ -49,14 +49,17 @@ body {
 .inner-right-channel-info {
     flex: 10%;
     background: orange;
+    flex-grow: 0;
 }
 
 .inner-right-chat {
     flex: 40%;
     background: purple;
+    flex-grow: 10;
 }
 
 .inner-right-message-box {
     flex: 10%;
     background: cyan;
+    flex-grow: 0;
 }
