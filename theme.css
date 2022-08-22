@@ -3,7 +3,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    text-align: center;
+    font-family: 'Open Sans', Verdana, sans-serif;
 }
 
 .base-layout-container {
@@ -12,7 +12,8 @@ body {
 }
 
 .base-layout-container-navigator {
-    flex: 20%;
+    flex: 15%;
+    background: rgb(175, 130, 175);
 }
 
 .base-layout-container-chat {
@@ -28,38 +29,64 @@ body {
 .inner-layout-container > div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: 10px;
 }
 
 .inner-left-status {
-    flex: 10%;
-    background: lightgreen;
+    flex: 60px;
 }
 
 .inner-left-channels {
-    flex: 45%;
-    background: red;
+    flex: 50%;
 }
 
 .inner-left-messages {
-    flex: 45%;
-    background: yellow;
+    flex: 50%;
 }
 
 .inner-right-channel-info {
     flex: 10%;
-    background: orange;
     flex-grow: 0;
 }
 
 .inner-right-chat {
     flex: 40%;
-    background: purple;
     flex-grow: 10;
 }
 
 .inner-right-message-box {
     flex: 10%;
-    background: cyan;
     flex-grow: 0;
+}
+
+.navigator-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigator-title {
+    flex-grow: 10;
+}
+
+.navigator-button {
+    flex-grow: 1;
+    color: black;
+}
+
+.status-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.status-text {
+    flex-grow: 10;
+}
+
+.status-notifications {
+    flex-grow: 1;
+    color: black;
+}
+
+.status-user {
+    margin-top: 10px;
 }
