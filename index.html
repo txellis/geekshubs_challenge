@@ -3,15 +3,35 @@
   <head>
     <title>Chat challenge</title>
     <link rel="stylesheet" type="text/css" href="theme.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
   </head>
   <body>
     <div class="base-layout-container">
         <div class="base-layout-container-navigator inner-layout-container">
-            <div class="inner-left-status">Status</div>
-            <div class="inner-left-channels">Channels</div>
-            <div class="inner-left-messages">Direct messages</div>
+            <div class="inner-left-status">
+                <div class="status-title">
+                    <div class="status-text">Super Txell chat</div>
+                    <div class="status-notifications"><i class="fa fa-bell-slash"></i></div>
+                </div>
+                <div class="status-user">Username</div>
+            </div>
+            <div class="inner-left-channels">
+                <div class="navigator-menu">
+                    <div class="navigator-title">Channels</div>
+                    <div class="navigator-button"><i class='fa fa-plus-circle'></i></div>
+                </div>
+                <div name="channel-list">Channels list</div>
+            </div>
+            <div class="inner-left-messages">
+                <div class="navigator-menu">
+                    <div class="navigator-title">Direct Messages</div>
+                    <div class="navigator-button"><i class='fa fa-plus-circle'></i></div>
+                </div>
+                <div name="channel-list">DMs list</div>
+            </div>
         </div>
         <div class="base-layout-container-chat inner-layout-container">
             <div class="inner-right-channel-info">Channel info</div>
