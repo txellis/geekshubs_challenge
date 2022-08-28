@@ -13,11 +13,12 @@ body {
 
 .base-layout-container-navigator {
     flex: 15%;
-    background: rgb(175, 130, 175);
+    background: steelblue;
 }
 
 .base-layout-container-chat {
     flex: 80%;
+    background: #9ad1ff;
 }
 
 .inner-layout-container {
