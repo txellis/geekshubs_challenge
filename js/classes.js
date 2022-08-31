@@ -1,20 +1,23 @@
 class User {
-    status = 'offline';
-    display_name = 'Wadus';
+    status = '';
+    display_name = '';
+    name = '';
+    password = '';
+};
 
-    constructor(user_name, password) {
-        this.user_name = user_name;
-        this.password = password;
-    }
+class Message {
+    content = '';
+    date = '';
+    time = '';
+    user = '';
+    channel = '';
+};
 
-    set display_name(name) {
-        this.display_name = name
-    }
+class Channel {
+    name = '';
+    users = [];
+    description = '';
+    messages = [];
+};
 
-    set status(status) {
-        this.status = status
-    }
-}
-
-let app_user = new User('josevi', 'segur123');
-console.log(app_user.user_name);
+export { User, Message, Channel };
