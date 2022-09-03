@@ -6,7 +6,9 @@ function update_chat(messages) {
         result += '<li>' + messages[i].content + '</li>'
     }
     result += '</ul>'
-    console.log(result)
+
+    let elements = document.getElementsByClassName("inner-right-chat");
+    elements[0].innerHTML = result;
 }
 
 let messages = []
