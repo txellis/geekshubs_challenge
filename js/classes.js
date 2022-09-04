@@ -8,7 +8,6 @@ class User {
 class Message {
     content = '';
     date = '';
-    time = '';
     user = '';
     channel = '';
 };
