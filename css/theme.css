@@ -19,6 +19,7 @@ body {
 .base-layout-container-chat {
     flex: 80%;
     background: #9ad1ff;
+    height: 100%;
 }
 
 .inner-layout-container {
@@ -51,8 +52,10 @@ body {
 }
 
 .inner-right-chat {
-    flex: 40%;
+    flex: 80%;
     flex-grow: 10;
+    overflow-y: auto;
+    max-height: 80%;
 }
 
 .inner-right-message-box {
